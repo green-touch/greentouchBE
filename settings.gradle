@@ -1,4 +1,5 @@
 rootProject.name = 'greentouch'
 include 'GREEN-common'
 include 'GREEN-Api'
+include 'GREEN-Domain'
 
