@@ -13,17 +13,11 @@
 GREEN-Api
 ├── src
 │   ├── main
-│   │   ├── java.greenTouch
-│   │   │   ├── api
-│   │   │   │   ├── apis
-│   │   │   │   │   ├── auth # 기능 관심사 별로 패키지를 나누어 구성한다.
-│   │   │   │   │   │   ├── controller
-│   │   │   │   │   │   ├── dto
-│   │   │   │   │   │   ├── usecase
-│   │   │   │   │   │   └── …
-│   │   │   │   │   └── …
-│   │   │   │   ├── common
-│   │   │   │   └── config
+│   │   ├── java.greenTouch.api
+│   │   │   ├── apis
+│   │   │   ├── auth
+│   │   │   ├── common 
+│   │   │   ├── config
 │   │   │   └── GreenTouchApiServerApplication.java
 │   │   └── resources
 │   │       └── application.yml

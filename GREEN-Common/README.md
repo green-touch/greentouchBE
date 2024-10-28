@@ -15,8 +15,8 @@
 GREEN-Common
 ├── src
 │   ├── main
-│   │   ├── java.greenTouch
-│   │   │   └── common # 공통으로 사용되는 Type, Util 등을 기능 별로 정의한다.
+│   │   ├── java.greenTouch.common
+│   │   │   └── GreenTouchCommonServiceApplication.java # 공통으로 사용되는 Type, Util 등을 기능 별로 정의한다.
 │   │   └── resources
 │   │       └── application-common.yml
 │   └── test

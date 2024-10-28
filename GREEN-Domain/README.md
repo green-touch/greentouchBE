@@ -24,7 +24,7 @@
 GREEN-Domain
 ├── src
 │   ├── main
-│   │   ├── java.greeTouch
+│   │   ├── java.greeTouch.domain
 │   │   │   ├── domains # 도메인 별로 패키지를 나누어 구성한다.
 │   │   │   │   ├── entity
 │   │   │   │   │   ├── domain
@@ -38,7 +38,7 @@ GREEN-Domain
 │   │   │   │   │   └── … 
 │   │   │   │   └── …
 │   │   │   ├── config
-│   │   │   └── DomainPackageLocation.java
+│   │   │   └── GreenTouchDomainServiceApplication.java
 │   │   └── resources
 │   │       └── application-domain.yml
 │   └── test
