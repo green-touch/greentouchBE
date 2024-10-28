@@ -1,18 +1,12 @@
-plugins {
-    id 'groovy'
-}
-
-group = 'hacuna'
-version = '0.0.1-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
+bootJar { enabled = false }
+jar { enabled = true }
 
 dependencies {
     implementation 'org.apache.groovy:groovy:4.0.14'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation project(':GREEN-Common')
+    implementation project(':GREEN-Infra')
 }
 
 test {

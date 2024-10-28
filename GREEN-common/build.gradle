@@ -1,6 +1,0 @@
-dependencies {
-    //common dependencies
-}
-
-bootJar.enabled = false
-jar.enabled = true
