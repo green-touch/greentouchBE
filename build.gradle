@@ -4,7 +4,8 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.6'
 }
 
-bootJar.enabled = false // 빌드시 현재 모듈(multi-module)의 .jar를 생성하지 않습니다.
+bootJar { enabled = false }
+jar { enabled = true }
 
 group = 'hacuna'
 version = '0.0.1-SNAPSHOT'
@@ -50,9 +51,13 @@ subprojects { // 모든 하위 모듈들에 이 설정을 적용합니다.
 		compileOnly 'org.projectlombok:lombok'
 		annotationProcessor 'org.projectlombok:lombok'
 		annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
 		testImplementation 'org.springframework.boot:spring-boot-starter-test'
 		testCompileOnly 'org.projectlombok:lombok'
 		testAnnotationProcessor 'org.projectlombok:lombok'
+		/* jackson */
+		implementation 'org.springframework.boot:spring-boot-starter-web'
+		implementation 'org.springframework.boot:spring-boot-starter-validation'
 	}
 
 	test {

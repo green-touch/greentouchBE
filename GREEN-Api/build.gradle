@@ -1,8 +1,21 @@
+plugins {
+    id 'java'
+}
+
+bootJar { enabled = true }
+jar { enabled = false }
+
+group = 'hacuna'
+version = 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
 bootJar { enabled = false }
 jar { enabled = true }
 
 dependencies {
-    implementation 'org.apache.groovy:groovy:4.0.14'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation project(':GREEN-Domain')
