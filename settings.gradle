@@ -1,1 +1,5 @@
 rootProject.name = 'greentouch'
+include 'GREEN-common'
+include 'GREEN-rest'
+include 'GREEN-common'
+
