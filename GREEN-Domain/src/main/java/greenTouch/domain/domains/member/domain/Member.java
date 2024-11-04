@@ -36,7 +36,8 @@ public abstract class Member extends BaseTimeEntity {
 
     private LocalDate birthday;
 
-//    private String address;   TODO convert type of object
+    @Embedded
+    private Address address;
 
 //    private String social;    TODO convert type of enum
 
