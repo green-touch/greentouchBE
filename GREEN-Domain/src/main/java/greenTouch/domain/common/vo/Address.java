@@ -1,4 +1,4 @@
-package greenTouch.domain.domains.member.domain;
+package greenTouch.domain.common.vo;
 
 import jakarta.persistence.Embeddable;
 import lombok.Getter;

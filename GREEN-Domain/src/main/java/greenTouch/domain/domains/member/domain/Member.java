@@ -1,6 +1,7 @@
 package greenTouch.domain.domains.member.domain;
 
 import greenTouch.domain.common.model.BaseTimeEntity;
+import greenTouch.domain.common.vo.Address;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
