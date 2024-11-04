@@ -1,4 +1,4 @@
-package greenTouch.domain.domains.senior.domain;
+package greenTouch.domain.domains.member.domain;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @DiscriminatorValue("type_senior")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class Senior {
+public class Senior extends Member{
     @Builder.Default
     private int rejectedCount = 0;
 }
