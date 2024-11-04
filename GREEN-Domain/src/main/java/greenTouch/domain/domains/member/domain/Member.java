@@ -39,7 +39,8 @@ public abstract class Member extends BaseTimeEntity {
     @Embedded
     private Address address;
 
-//    private String social;    TODO convert type of enum
+    @Enumerated(EnumType.STRING)
+    private Social social;
 
     @Enumerated(EnumType.STRING)
     private Role role;
