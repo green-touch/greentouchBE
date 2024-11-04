@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,8 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GREEN-Api" />
+            <option value="$PROJECT_DIR$/GREEN-Common" />
             <option value="$PROJECT_DIR$/GREEN-Domain" />
-            <option value="$PROJECT_DIR$/GREEN-common" />
+            <option value="$PROJECT_DIR$/GREEN-Infra" />
           </set>
         </option>
       </GradleProjectSettings>
