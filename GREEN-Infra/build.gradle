@@ -1,0 +1,7 @@
+dependencies {
+    api project(':GREEN-Common')
+}
+
+test {
+    useJUnitPlatform()
+}

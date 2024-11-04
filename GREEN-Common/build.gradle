@@ -1,0 +1,11 @@
+bootJar { enabled = false }
+jar { enabled = true }
+
+dependencies {
+    /* Spring Core */
+    api group: 'org.springframework', name: 'spring-core'
+}
+
+test {
+    useJUnitPlatform()
+}

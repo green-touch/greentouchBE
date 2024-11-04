@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+bootJar { enabled = true }
+jar { enabled = false }
+
+group = 'hacuna'
+version = 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+bootJar { enabled = false }
+jar { enabled = true }
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation project(':GREEN-Domain')
+    implementation project(':GREEN-Common')
+    implementation project(':GREEN-Infra')
+}
+
+test {
+    useJUnitPlatform()
+}
