@@ -1,6 +1,5 @@
 package greenTouch.domain.domains.week.domain;
 
-import greenTouch.domain.common.model.DayOfWeek;
 import greenTouch.domain.domains.member.domain.Senior;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -12,7 +11,7 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @SuperBuilder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class SeniorSelectableDay {
+public class SeniorSelectable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

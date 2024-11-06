@@ -1,11 +1,12 @@
 package greenTouch.domain.domains.week.domain;
 
-import greenTouch.domain.common.model.DayOfWeek;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
+
+import java.time.DayOfWeek;
 
 @Entity
 @Getter
@@ -18,6 +19,6 @@ public class SelectableDay {
     @Column(name = "selectable_day_id")
     private Long id;
 
-    @Enumerated(EnumType.STRING)
     private DayOfWeek dayOfWeek;
+
 }
