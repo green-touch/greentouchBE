@@ -19,6 +19,7 @@ public class SelectableDay {
     @Column(name = "selectable_day_id")
     private Long id;
 
+    @Enumerated(EnumType.STRING)
     private DayOfWeek dayOfWeek;
 
 }

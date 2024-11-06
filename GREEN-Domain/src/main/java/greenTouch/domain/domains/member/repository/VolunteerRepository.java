@@ -1,4 +1,7 @@
 package greenTouch.domain.domains.member.repository;
 
-public interface VolunteerRepository {
+import greenTouch.domain.domains.member.domain.Volunteer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VolunteerRepository extends JpaRepository<Volunteer, Long> {
 }

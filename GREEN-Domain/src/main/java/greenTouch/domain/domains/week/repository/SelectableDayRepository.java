@@ -1,4 +1,7 @@
 package greenTouch.domain.domains.week.repository;
 
-public interface SelectableDayRepository {
+import greenTouch.domain.domains.week.domain.SelectableDay;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SelectableDayRepository extends JpaRepository<SelectableDay, Long> {
 }

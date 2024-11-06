@@ -11,11 +11,11 @@ import lombok.experimental.SuperBuilder;
 @Getter
 @SuperBuilder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class SeniorSelectable {
+public class SeniorPreferences {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "senior_selectable_day_id")
+    @Column(name = "senior_preferences_id")
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
